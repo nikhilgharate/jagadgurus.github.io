@@ -2,39 +2,85 @@
 <html>  
  <head>  
     <title>Information</title>  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
  </head>  
  <body>  
     <style>
-        div {
-          padding-top: 30px;
-          padding-right: 40px;
-          padding-bottom: 50px;
-          padding-left: 40px;
-          
-        }
-        
+      .text1 {
+         padding: 40px 40px 50px 40px;         
+      }
 
+      .divine-group {
+         padding: 30px 20px 0 8px;        
+      }
+
+      .semi-divine-group{
+         padding: 20px 20px 0 8px;
+      }
+      .text-pad{
+         padding: 20px 20px 0 8px;     
+
+      }
+      .carousel-outer {
+         padding: 20px 20px 0 5px;        
+      }
+      .carousel-indicators .active{
+         background-color: #E55039;
+         height: 21px;
+         width: 21px;
+      }
+      .carousel-indicators li{
+         border: 1px solid #E55039;
+         height: 20px;
+         width: 20px;
+      }
+
+      .p-text{
+         color:black;
+         font-size:40px;
+      }
+
+      @media screen and (min-width: 768px){
+         .carousel-indicators {
+            bottom: -50px;
+         }
+      }
         </style>
-        <div>
-            <img src="https://raw.githubusercontent.com/nikhilgharate/jagadgurus.github.io/main/assets/jagadgurus.png" alt="Information" width="880" height="600"> 
 
-            </style> 
        
-        <p
-        style="color:black;font-family: italicize;font-size:30px;"> <I>The following is an Excerpt from the English translation of Jagadguru Sri Sri Bharati Tirtha Mahaswamiji’s Anugrahabhashanam expounding the importance of temples.</I></h2>
-          
+   </style>
+   <div class="text1">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+         <!-- Indicators -->
+         <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+         </ol> 
+
+
+         <div class="carousel-inner">
+            <div class="item active">
+               <img src="/home/nikhil/StudioProjects/jagadguru/assets/jagadgurus.png" alt="img1" style="width:100%; height: 60%;">
+            </div>
+            <div class="item">
+               <img src="https://raw.githubusercontent.com/nikhilgharate/jagadgurus.github.io/main/assets/chandramouleeswara-pooja_n.png" alt="img3" style="width:100%; height: 60%;">
+            </div>
+            <div class="item">
+               <img src="https://raw.githubusercontent.com/nikhilgharate/jagadgurus.github.io/main/assets/image%2067.png" alt="img3" style="width:100%; height: 60%;">
+            </div>
+         </div>
+         <p style="color:black;font-family: italicize;font-size:30px;"> <I>Obeisance unto the hoary Guru Parampara, beginning from Lord Sri Sadashiva upto the present Acharya with Sri Shankaracharya in middle.</I></h2>
          </p>
-      </style>
-   </h2>
-    </style>
 
+      </div>
+      <div>
 
-            <p  style="color:black;font-size:37px;">
-               Obeisance unto the hoary Guru Parampara, beginning from Lord Sri Sadashiva upto the present Acharya with Sri Shankaracharya in middle.</p> 
-       
-
-            <p  style="color:black;font-size:37px;">
-              <b>In our Indian tradition, a very high position has been accorded to the Guru. Without the grace of the Guru, no one can attain fulfilment of the purpose of life. We all desire Moksha, and the sole means to its attainment is Jnana (knowledge). The Veda says: “It is only by knowing the Supreme Brahman that one attains immortality. There is no other path”.</b></p> 
+            <p  style="color:black;font-size:37px;padding-top: 40px;">
+              In our Indian tradition, a very high position has been accorded to the Guru. Without the grace of the Guru, no one can attain fulfilment of the purpose of life. We all desire Moksha, and the sole means to its attainment is Jnana (knowledge). The Veda says: “It is only by knowing the Supreme Brahman that one attains immortality. There is no other path”.</p> 
            
 
             <p  style="color:black;font-size:37px;">
@@ -45,7 +91,248 @@
       
             <p  style="color:black;font-size:37px;">
                The Hoary Guru-Shishya Parampara, avichchinna (unbroken) Guruparampara of  Dakshinamnaya Sringeri Sharada Peetham is given below.</p> 
+               
+               <div class="carousel-outer">
+                  <div class="content" style="display: flex;justify-content:start;align-items: center;">
+                     <div>
+                        <img src="/home/nikhil/StudioProjects/dropdawn/assets/Frame 30217.png" alt="img1" style="height: 100px; "width="100">
+                     </div>
+      
+                     <div>
+                        <p class="text-pad" style="color:black;font-size:40px;"><b>Lineage of Gurus</b></p>
+                     </div>
+      
+                     <!-- <div>
+                        <img src="/home/nikhil/StudioProjects/dropdawn/assets/Vector.png" alt="img2">
+                     </div> -->
+                  </div>
+               </div>
 
+               <div class="divine-group">
+                  <div  style="display: flex;justify-content: space-between;align-items: center;">      
+                     <div>
+                        <p style="color:black;font-size:40px;"><b>Divine Group</b></p>
+                        </div>
+                        <!-- <div>
+                           <img src="/home/nikhil/StudioProjects/dropdawn/assets/Vector.png" alt="img2">
+                        </div> -->
+                     </div>
+                     <div>
+                        <p class="p-text">Lord Sadashiva</p>
+                        <p class="p-text">Lord Narayana</p>
+                        <p class="p-text">Lord Brahma</p>
+                     </div>
+               </div>
+
+               <div class="semi-divine-group">
+                  <div  style="display: flex;justify-content: space-between;align-items: center;">      
+                     <div>
+                        <p style="color:black;font-size:40px;"><b>Divine Group</b></p>
+                        </div>
+                        <!-- <div>
+                           <img src="/home/nikhil/StudioProjects/dropdawn/assets/Vector.png" alt="img2">
+                        </div> -->
+                     </div>
+                     <div>
+                        <p class="p-text">Vasishta Maharishi</p>
+                        <p class="p-text">Shakti Maharishi</p>
+                        <p class="p-text">Parashara Maharishi</p>
+                        <p class="p-text">Veda Vyasa</p>
+                        <p class="p-text">Sri Shuka Acharya</p>
+                        <p class="p-text">Sri Gaudapada Acharya</p>
+                        <p class="p-text">Sri Govinda Bhagavatpada</p>
+                        <p class="p-text">Sri Shankara Bhagavatpada</p>
+                     </div>
+               </div>
+
+               <div class="semi-divine-group">
+                  <div  style="display: flex;justify-content: space-between;align-items: center;">      
+                     <div>
+                        <p style="color:black;font-size:40px;"><b>Jagadgurus of the Sringeri Sharada & Peetham	Period of Reign (CE)</b></p>
+                        </div>
+                        <!-- <div>
+                           <img src="/home/nikhil/StudioProjects/dropdawn/assets/Vector.png" alt="img2">
+                        </div> -->
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">1.	Sri Shankara Bhagavatpada	</p>
+                        <p class="p-text">820 </p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">2.	Sri Sureshwaracharya	</p>
+                        <p class="p-text">820 – 834</p>
+                     </div>
+      
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">3.	Sri Nityabodaghana</p>
+                        <p class="p-text">834-848</p>
+                     </div>
+      
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">4.	Sri Jnanaghana</p>
+                        <p class="p-text">848 – 910</p>
+                     </div>
+      
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">5.	Sri Jnanottama</p>
+                        <p class="p-text">910 – 954</p>
+                     </div>
+      
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">6.	Sri Jnanagiri</p>
+                        <p class="p-text">954 – 1038</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">7.	Sri Simhagiri	</p>
+                        <p class="p-text">1038 – 1098</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">8.	Sri Ishwara Tirtha</p>
+                        <p class="p-text">1098 – 1146</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">9.	Sri Nrisimha Tirtha	</p>
+                        <p class="p-text">1146 – 1229</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">10.	Sri Vidya Tirtha	</p>
+                        <p class="p-text">1229 – 1333</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">11.	Sri Bharati Tirtha</p>
+                        <p class="p-text">1333 – 1380</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">12.	Sri Vidyaranya</p>
+                        <p class="p-text">1380 – 1386</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">13.	Sri Chandrasekhara Bharati I</p>
+                        <p class="p-text">1380 – 1386</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">14.	Sri Nrisimha Bharati I</p>
+                        <p class="p-text">1389 – 1408</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">15.	Sri Puroshottama Bharati I	</p>
+                        <p class="p-text">1408 – 1448</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">15.	Sri Puroshottama Bharati I	</p>
+                        <p class="p-text">1408 – 1448</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">15.	Sri Puroshottama Bharati I	</p>
+                        <p class="p-text">1408 – 1448</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">16.	Sri Shankara Bharati</p>
+                        <p class="p-text">1448 – 1455</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">17.	Sri Chandrasekhara Bharati II	</p>
+                        <p class="p-text">1455 – 1464</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">18.	Sri Nrisimha Bharati II	</p>
+                        <p class="p-text">1464 – 1479</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">19.	Sri Puroshottama Bharati II</p>
+                        <p class="p-text">1479 – 1517</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">20.	Sri Ramachandra Bharati</p>
+                        <p class="p-text">1517 – 1560</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">21.	Sri Nrisimha Bharati III</p>
+                        <p class="p-text">1560 – 1573</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">22.	Sri Nrisimha Bharati IV	</p>
+                        <p class="p-text">1573 – 1576</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">23.	Sri Nrisimha Bharati V</p>
+                        <p class="p-text">1576 – 1600</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">24.	Sri Abhinava Nrisimha Bharati</p>
+                        <p class="p-text">1600 – 1623</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">25.	Sri Sacchidananda Bharati I	</p>
+                        <p class="p-text">1623 – 1663</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">26.	Sri Nrisimha Bharati VI</p>
+                        <p class="p-text">1663 – 1706</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">27.	Sri Sacchidananda Bharati II	</p>
+                        <p class="p-text">1706 – 1741</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">28.	Sri Sacchidananda Bharati I</p>
+                        <p class="p-text">1741 – 1767</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">29.	Sri Nrisimha Bharati VII</p>
+                        <p class="p-text">1767 – 1770</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">30.	Sri Sacchidananda Bharati III</p>
+                        <p class="p-text">1770 – 1814</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">31.	Sri Abhinava Sacchidananda II</p>
+                        <p class="p-text">1814 – 1817</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">32.	Sri Nrisimha Bharati VIII	</p>
+                        <p class="p-text">1817 – 1879</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">33.Sri  Shivabhinava</p>
+                        <p class="p-text">1879 – 1912</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">34.	Sri Chandrasekhara Bharati III</p>
+                        <p class="p-text">1912 – 1954</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">35.	Sri Abhinava Vidyatirtha</p>
+                        <p class="p-text">1954 – 1989</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">36.	Sri Bharati Tirtha</p>
+                        <p class="p-text">1989 – Present</p>
+                     </div>
+                     <div id="list" style="display: flex;justify-content: space-between;align-items: center;">
+                        <p class="p-text">37.	Sri Vidhushekhara Bharati	</p>
+                        <p class="p-text">Succe-Designate</p>
+
+                     
+                     </div>
+                     <p  style="color:black;font-size:37px;">
+                        Coming to the temple, we can pour out our sufferings in the presence of the Lord, if we sit in the Lord’s presence for some time and meditate, we will get a solution for our difficulties; we have direct experience of this and there is no need for any other validation. Only God helps man during difficult times – no one else. If we worship God with utmost devotion and faith and surrender, we can definitely attain the grace of God – there is no doubt in that. If we do not have that faith, the difficulty is only for us, not for God. Hence, with utmost faith and devotion, for the very reason that we would need to get all that what we desire/wish , we worship and depend on God, by consecrating Him in the temple according to Shastric injunctions.</p> 
+               
+               <a href="https://sringeri.net/2014/07/12/news/guruparampara-stotram-online.htm">
+      
+               <img src="https://raw.githubusercontent.com/nikhilgharate/jagadgurus.github.io/main/assets/guruparampara.png" width="880">
+               </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+
+
+
+      
+      
          
 </body>
       
